@@ -24,14 +24,14 @@ configuration:
             <version>1.0-SNAPSHOT</version>
             <configuration>
                 <database>test</database>
-                <shellHome>d:\dev\mongo\3.4\</shellHome>
+                <shellHome>/dev/mongo/3.4</shellHome>
                 <port>27018</port>
-                <database>calce-test</database>
-                <user>calce-test</user>
-                <password>calce-test</password>
-                <authenticationDatabase>calce-test</authenticationDatabase>
+                <database>db</database>
+                <user>user</user>
+                <password>pas</password>
+                <authenticationDatabase>db</authenticationDatabase>
                 <versionsCollection>version</versionsCollection>
-                <scriptsDir>d:\code\calce\calce-backend\scripts\mongodb.migration\</scriptsDir>
+                <scriptsDir>scripts/mongodb.migration</scriptsDir>
             </configuration>
         </plugin>
 
